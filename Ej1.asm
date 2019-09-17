@@ -27,14 +27,14 @@ programa: ;etiqueta de inicio de probrama
     ;Imprimir cadena
     mov dx, OFFSET variable2   ;asignando a dx la variable cadena
     mov ah, 09h     ;decimos que se imprimira una cadena
-    int 21h   
+    int 21h     
     xor dx, dx      
 
     ;Imprimir caracter
     mov dx,    ;asignando a dx la variable cadena
     mov ah, 09h     ;decimos que se imprimira una cadena
     int 21h   
-    xor dx, dx      
+    xor dx, dx    
 
     ;FINALIZAR PROGRAMA
     mov ah, 4Ch     ;finalizar el proceso
