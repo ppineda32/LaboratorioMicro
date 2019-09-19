@@ -5,7 +5,6 @@ Impresion de Caracteres
 ## Contenido
 
 ### Ejercicio 1
-Archivos 
 * Ej1.asm
 * EJ1.EXE
 * EJ1.MAP
