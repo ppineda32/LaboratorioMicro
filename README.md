@@ -1,7 +1,6 @@
-# Laboratorio de Microprogramacion
+# Laboratorio 2
 
-En el presente repositorio se encontraran los laboratorios de Microprogramacion
+Debug en TASM
 
-## Lista de Laboratorios
+## Contenido
 
-* [Laboratorio1](https://github.com/pab12play/LaboratorioMicro/tree/Lab1) - Impresion de Caracteres
