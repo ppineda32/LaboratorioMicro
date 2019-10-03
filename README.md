@@ -1,6 +1,8 @@
-# Laboratorio 2
+# Laboratorio 3
 
-Debug en TASM
+Operaciones Aritmeticas
 
 ## Contenido
-
+* Ejercicio1 - operaciones con un digito
+* Ejercicio2 - operaciones con un digito ingresando un valor
+* Ejercicio3 - operaciones imprimendo dos digitos
