@@ -1,10 +1,8 @@
-# Laboratorio de Microprogramacion
+# Laboratorio 4
 
-En el presente repositorio se encontraran los laboratorios de Microprogramacion
+Operaciones Aritmeticas con sumas y restas
 
-## Lista de Laboratorios
-
-* [Laboratorio1](https://github.com/pab12play/LaboratorioMicro/tree/Lab1) - Impresion de Caracteres
-* [Laboratorio2](https://github.com/pab12play/LaboratorioMicro/tree/Lab2) - Debugger
-* [Laboratorio3](https://github.com/pab12play/LaboratorioMicro/tree/Lab3) - Operaciones Aritmeticas
-
+## Contenido
+* Ejercicio1 - digito par o impar
+* Ejercicio2 - comparacion de numeros
+* Ejercicio3 - multiplicacion y division con sumas y restas
