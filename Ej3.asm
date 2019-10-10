@@ -71,11 +71,23 @@ valor:
     MOV AH, 09h
     INT 21h
 
-    XOR DX,DX
-    MOV DL, producto
+    ;impreson de 2 caracteres
+    XOR AX,AX
+    MOV AL, producto
+    ;Impresion de numero
+    MOV BL, 10d
+    DIV BL
+    MOV DL, AL
+    MOV CL, AH
     ADD DL, 30h
-    MOV AH, 02h
-    INT 21h
+    MOV AH, 02h     ;decimos que se imprimira una cadena
+    INT 21h         ;ejecuta la interrupcion, imprimira
+    ADD CL, 30h
+    XOR DX, DX
+    MOV DL, CL
+    MOV AH, 02h     ;decimos que se imprimira una cadena
+    INT 21h         ;ejecuta la interrupcion, imprimira
+
 
     MOV DX, Offset mensajeCociente
     MOV AH, 09h
