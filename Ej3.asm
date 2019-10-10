@@ -38,7 +38,7 @@ programa:
     MOV numero2, AL
     SUB numero2, 30h
     
-    ;multiplicacion
+    ;multiplicacion con suma
     XOR CX, CX
     MOV CL, numero2
     SUB CL, 01h
@@ -53,11 +53,13 @@ mult:
     XOR CX,CX
     XOR AX,AX
     MOV AL, numero1 
-div:
+
+    ;dividir usando resta
+dividir:
     INC CL
     SUB AL, numero2
     CMP AL,0
-    JG div
+    JG dividir
     CMP AL,0
     JE valor
     DEC CL
