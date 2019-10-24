@@ -49,7 +49,7 @@ Ciclo:
     MOV AL, numero1
     DIV CL
     CMP AH, 00h
-    LOOPNE Ciclo
+    JNE seguir
     
     PUSH CX
     MOV BL, 0Ah
@@ -70,7 +70,8 @@ Ciclo:
     MOV DL, 13d
     MOV AH, 02h     ;decimos que se imprimira una cadena
     INT 21h         ;ejecuta la interrupcion, imprimira
-    POP CX         
+    POP CX     
+seguir:    
     LOOP Ciclo
 
     ;FINALIZAR PROGRAMA
