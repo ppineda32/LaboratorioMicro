@@ -59,13 +59,37 @@ Programa: ;etiqueta de inicio de probrama
     SUB AL, 30h     ;quitar 30h AL caracter
     ADD numero2,AL
 
-    MOV CX, numero1
+    XOR CX, CX
+    MOV CL, numero1
+    DEC CL
     MOV AL, numero2
 Ciclo1:
-    ADD AL, numero1
+    ADD AL, numero2
     Loop Ciclo1
+    MOV numero2,AL
 
-    
+    MOV DL, 10d
+    MOV AH, 02h     ;decimos que se imprimira una cadena
+    INT 21h         ;ejecuta la interrupcion, imprimira
+    MOV DL, 13d
+    MOV AH, 02h     ;decimos que se imprimira una cadena
+    INT 21h         ;ejecuta la interrupcion, imprimira
+
+    XOR AX,AX
+    MOV AL,numero2
+    ;Impresion de numero
+    MOV BL, 0Ah
+    DIV BL
+    MOV DL, AL
+    MOV CL, AH
+    ADD DL, 30h
+    MOV AH, 02h     ;decimos que se imprimira una cadena
+    INT 21h         ;ejecuta la interrupcion, imprimira
+    ADD CL, 30h
+    XOR DX, DX
+    MOV DL, CL
+    MOV AH, 02h     ;decimos que se imprimira una cadena
+    INT 21h         ;ejecuta la interrupcion, imprimira
 
     ;FINALIZAR PROGRAMA
     MOV AH, 4Ch     ;finalizar el proceso
