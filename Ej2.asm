@@ -1,9 +1,5 @@
 .MODEL small
 .DATA
-;variable que contiene el texto que queremos mostrar
-cadena DB 10,13,'Ingrese 2 digitos',10,13,'$' ; $ Significa el final de la cadena
-numero1 DB 0
-numero2 DB 0
 
 .STACK
 

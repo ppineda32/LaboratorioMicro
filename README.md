@@ -1,11 +1,9 @@
-# Laboratorio de Microprogramacion
+# Laboratorio 5
 
-En el presente repositorio se encontraran los laboratorios de Microprogramacion
+Instrucciones basicas con Loop
 
-## Lista de Laboratorios
-
-* [Laboratorio1](https://github.com/pab12play/LaboratorioMicro/tree/Lab1) - Impresion de Caracteres
-* [Laboratorio2](https://github.com/pab12play/LaboratorioMicro/tree/Lab2) - Debugger
-* [Laboratorio3](https://github.com/pab12play/LaboratorioMicro/tree/Lab3) - Operaciones Aritmeticas
-* [Laboratorio4](https://github.com/pab12play/LaboratorioMicro/tree/Lab4) - Operaciones con Sumas y Restas
-
+## Contenido
+* Ejercicio1 - multiplicacion con loop de sumas
+* Ejercicio2 - Escribir X hasta presionar enter
+* Ejercicio3 - Encontrar factores de numero de dos digitos
+* Ejercicio4 - Escribir el numero en binario
