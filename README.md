@@ -9,3 +9,4 @@ En el presente repositorio se encontraran los laboratorios de Microprogramacion
 * [Laboratorio3](https://github.com/pab12play/LaboratorioMicro/tree/Lab3) - Operaciones Aritmeticas
 * [Laboratorio4](https://github.com/pab12play/LaboratorioMicro/tree/Lab4) - Operaciones con Sumas y Restas
 * [Laboratorio5](https://github.com/pab12play/LaboratorioMicro/tree/Lab5) - Ciclos Loop
+* [Laboratorio6](https://github.com/pab12play/LaboratorioMicro/tree/Lab6) - Practicas con Cadenas
